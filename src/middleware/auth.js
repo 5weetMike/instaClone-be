@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const salt = parseInt(process.env.SALT);
-const User = require("../users/models");
+const User = require("../users/model");
 
 
 
